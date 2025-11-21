@@ -2,7 +2,8 @@
 
 FACTURAS
 GET /api/facturas/persona/{idPersona}
-POST /api/facturas/persona → Crea una factura.
+
+POST /api/facturas/persona.
 Body:
 {
 "idPersona": 1,
