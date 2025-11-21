@@ -17,6 +17,7 @@ GET /api/directorio → Consulta el listado paginado del directorio.
 GET /api/directorio/{identificacion} → Consulta un registro del directorio por identificacion.
 
 POST /api/directorio.
+
 Body:
 {
 "nombre": "EJEMPLO",
@@ -24,6 +25,7 @@ Body:
 "apellidoMaterno": "EJEMPLO",
 "identificacion": "DFL123442"
 }
+
 DELETE /api/directorio/{identificacion}.
 
 # GetechnologiesMx
