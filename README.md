@@ -1,6 +1,7 @@
 # Test Software Developer
 
 FACTURAS
+
 GET /api/facturas/persona/{idPersona}
 
 POST /api/facturas/persona.
@@ -12,6 +13,7 @@ Body:
 }
 
 DIRECTORIO
+
 GET /api/directorio → Consulta el listado paginado del directorio.
 
 GET /api/directorio/{identificacion} → Consulta un registro del directorio por identificacion.
